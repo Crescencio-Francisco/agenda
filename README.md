@@ -10,3 +10,5 @@ Esta é uma aplicação de agenda online desenvolvida em PHP utilizando o framew
 - Exclusão de eventos.
 - Integração com a biblioteca FullCalendar para fornecer uma interface de calendário responsiva e intuitiva.
 - Design responsivo utilizando a biblioteca Bootstrap 5.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/747f0865-eef2-46a7-8004-c018e3d3c597/deploy-status)](https://app.netlify.com/sites/cf-agenda/deploys)
