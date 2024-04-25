@@ -3,9 +3,8 @@
 use App\Http\Controllers\EventoController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', [EventoController::class, 'index']);
 Route::get('/eventos', [EventoController::class, 'index'])->name('eventos');
 Route::post('/evento/registar', [EventoController::class, 'create'])->name('registar.evento');
 Route::get('/evento/editar/', [EventoController::class, 'edit'])->name('evento.editar');
