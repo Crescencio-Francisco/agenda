@@ -18,26 +18,26 @@
 
                 @csrf
                 <div class="mb-3">
-                    <label for="titulo" class="form-label">Título</label>
+                    <label for="titulo" class="form-label">Nome do evento</label>
                     <input type="text" name="inputTitulo" class="form-control form-control-sm" id="titulo"
                         placeholder="Título do evento" value="{{ $eventos['title'] }}" required>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col-sm-6">
-                        <label for="dataInicio" class="form-label">Início</label>
+                        <label for="dataInicio" class="form-label">Data Início</label>
                         <input type="datetime-local" name="inputDataInicio" class="form-control form-control-sm"
                             id="dataInicio" value="{{ $eventos['start'] }}" required>
                     </div>
                     <div class="col-sm-6">
-                        <label for="dataTermino" class="form-label">Término</label>
+                        <label for="dataTermino" class="form-label">Data Término</label>
                         <input type="datetime-local" name="inputDataTermino" class="form-control form-control-sm"
                             id="dataTermino" value="{{ $eventos['end'] }}" required>
                     </div>
                 </div>
 
                 <div class="mb-3">
-                    <label for="descricao" class="form-label">Descrição</label>
+                    <label for="descricao" class="form-label">Descrição do evento</label>
                     <textarea name="inputDescricao" id="descricao" cols="30" rows="5"
                         class="form-control form-control-sm"
                         placeholder="Descrição do evento">{{ $eventos['description'] }}</textarea>
