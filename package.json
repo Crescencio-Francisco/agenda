@@ -9,11 +9,5 @@
         "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
         "vite": "^5.0"
-    },
-    "scripts": {
-        "build": "npm run production",
-        "production": "npm install && npm run prod",
-        "prod": "npx mix --production",
-        "dev": "npx mix"
-      }
+    }
 }
