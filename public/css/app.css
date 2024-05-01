@@ -11,7 +11,7 @@ body {
 }
 
 .btn-editar {
-    transition: all .5s;
+    transition: .5s all;
 }
 
 .btn-editar:hover {
